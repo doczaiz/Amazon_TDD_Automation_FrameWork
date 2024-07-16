@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Regression Test Suite">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="envName" value="browserStack"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="11"/>
+<!--    <parameter name="osVersion" value="Sonoma"/>-->
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="120"/>
+
+    <test name="Amazon Test Automation">
+
+      <classes>
+          <class name="org.example.testpages.AmazonSearchBoxTest"/>
+
+
+
+      </classes>
+
+
+
+
+    </test>
+
+
+
+
+</suite>
